@@ -4,3 +4,4 @@ ipykernel
 black
 pandas
 numpy
+matplotlib
