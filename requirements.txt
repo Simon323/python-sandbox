@@ -1,0 +1,6 @@
+rich
+python-dotenv
+ipykernel
+black
+pandas
+numpy
