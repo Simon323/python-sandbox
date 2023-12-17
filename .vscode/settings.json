@@ -1,0 +1,44 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.testing.pytestArgs": ["src/tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.typeCheckingMode": "off",
+  "python.languageServer": "Pylance",
+  "black-formatter.args": ["--line-length", "120"],
+  "editor.semanticTokenColorCustomizations": {
+    "[Default Dark Modern]": {
+      "enabled": true,
+      "rules": {
+        "selfParameter": "#d40000",
+        "clsParameter": "#d40000",
+        "type": "#26A69A",
+        "namespace": "#00897B",
+        "function": "#FF9900",
+        "variable": "#42A5F5",
+        "number": "#90A4AE",
+        "string": {
+          "foreground": "#90A4AE",
+          "italic": true
+        },
+        "comment": {
+          "foreground": "#546E7A",
+          "fontStyle": "italic"
+        },
+        "variable.readonly.defaultLibrary": "#A89F9B",
+        "macro": "#7E57C2",
+        "keyword": "#7986CB",
+        "operator": "#9575CD",
+        "type.modification": "#00897B",
+        "punctuation": "#A1887F"
+      }
+    }
+  }
+}
